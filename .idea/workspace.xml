@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3460cf2e-86f7-4171-bd47-ff067ce95c53" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../calculate/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calculate/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calculate/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calculate/.idea/thriftCompiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calculate/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calculate/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calculate/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calculate/calculate.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calculate/out/production/calculate/tree/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calculate/out/production/calculate/tree/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calculate/out/production/calculate/tree/TreeTools.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calculate/src/copyTree/CtreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calculate/src/tree/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calculate/src/tree/Tools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calculate/src/tree/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../calculate/src/tree/TreeTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lipIdentify/.idea/lipIdentify.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lipIdentify/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lipIdentify/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lipIdentify/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lipIdentify/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lipIdentify/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lipIdentify/camera.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lipIdentify/color_json/face.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lipIdentify/color_json/lipstick.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lipIdentify/color_json/shape_predictor_68_face_landmarks.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lipIdentify/color_json/tomato.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lipIdentify/compareColor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lipIdentify/detectMouth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lipIdentify/getColor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lipIdentify/input/source.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lipIdentify/input/source2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lipIdentify/lipColor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lipIdentify/output/Mouth1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lipIdentify/output/Mouth2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lipIdentify/temp.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MovieLens-RecSys-master/.idea/MovieLens-RecSys-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MovieLens-RecSys-master/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MovieLens-RecSys-master/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MovieLens-RecSys-master/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie_recommender-master/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie_recommender-master/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BCLOUD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build/bin/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build/bin/noah_control" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build/bin/supervise.send-gateway" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build/config/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build/config/application-prod.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build/config/application-test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build/config/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build/data/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build/log/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build/matrix/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build/noahdes/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build/opbin/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build/opbin/jvm_monitor.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build/tmp/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../checkstyle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../log/zhiban-adaptor.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/baidu/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/baidu/iop/zhiban/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/baidu/iop/zhiban/configuration/ApplicationProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/baidu/iop/zhiban/configuration/ConstantProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/baidu/iop/zhiban/configuration/CorsProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/baidu/iop/zhiban/configuration/CustomSystemExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/baidu/iop/zhiban/configuration/CustomWebMvcConfigurer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/baidu/iop/zhiban/configuration/NormalizationResponseBodyAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/baidu/iop/zhiban/configuration/PageHelperConf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/baidu/iop/zhiban/domain/ZhibanInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/baidu/iop/zhiban/domain/ZhibanUsersInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/baidu/iop/zhiban/util/Constant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/baidu/iop/zhiban/util/HttpClientUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/baidu/iop/zhiban/util/TestMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/baidu/iop/zhiban/util/TimeoutHttpRetryHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/baidu/iop/zhiban/util/Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/baidu/iop/zhiban/web/controller/ApplicationInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/baidu/iop/zhiban/web/controller/BaseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/baidu/iop/zhiban/web/controller/ZhibanInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/baidu/iop/zhiban/web/controller/dto/BasePageResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/baidu/iop/zhiban/web/controller/dto/BaseResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/baidu/iop/zhiban/web/controller/dto/Code.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/baidu/iop/zhiban/web/controller/dto/ErrorResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/baidu/iop/zhiban/web/controller/dto/MsgResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/baidu/iop/zhiban/web/controller/dto/PageDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/com/baidu/iop/zhiban/web/controller/dto/SimplePageDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/resources/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/resources/cacerts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/resources/i18n/messages_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/resources/i18n/messages_zh_CN.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/resources/iplist.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/resources/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/resources/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/resources/templates/case_report_dasou.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/resources/whiteList.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/test/java/com/baidu/iop/zhiban/AbstractSpringTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thrift" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="95" column="46" lean-forward="true" selection-start-line="95" selection-start-column="46" selection-end-line="95" selection-end-column="46" />
+              <folding>
+                <element signature="e#24#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-124">
+              <caret line="27" column="11" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/tensorflow/python/training/learning_rate_decay.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/predicted.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pre-processing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2490">
+              <caret line="176" column="49" selection-start-line="176" selection-start-column="49" selection-end-line="176" selection-end-column="49" />
+              <folding>
+                <element signature="e#25#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inference.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="163" column="41" selection-start-line="163" selection-start-column="41" selection-end-line="163" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dbn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1003">
+              <caret line="191" column="52" selection-start-line="191" selection-start-column="52" selection-end-line="191" selection-end-column="52" />
+              <folding>
+                <element signature="e#44#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>model_path</find>
+      <find>movie_features[1193]</find>
+      <find>Restoring</find>
+      <find>pre-processing</find>
+      <find>avg_loss</find>
+      <find>lstm</find>
+      <find>movie_title_lstm_layer</find>
+      <find>movie_feature_network</find>
+      <find>get_inputX</find>
+      <find>full_network</find>
+      <find>Dataset</find>
+      <find>LEARNING_RATE_DECAY</find>
+      <find>epoch_i</find>
+      <find>EPOCH</find>
+      <find>batch_i</find>
+      <find>dataset</find>
+      <find>intput_X</find>
+      <find>Y</find>
+      <find>input_X</find>
+      <find>reconstruction error</find>
+      <find>Xs</find>
+      <find>target</find>
+      <find>X</find>
+      <find>loss_mae</find>
+      <find>input_ndarray</find>
+      <find>_batchsize</find>
+      <find>BATCH_SIZE</find>
+      <find>saver</find>
+      <find>loss</find>
+      <find>step</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pre-processing.py" />
+        <option value="$PROJECT_DIR$/predicted.py" />
+        <option value="$PROJECT_DIR$/dbn_lstm.py" />
+        <option value="$PROJECT_DIR$/inference.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/dbn.py" />
+        <option value="$PROJECT_DIR$/train.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="727" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="movie_recommender-change" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movie_recommender-change" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="movie_recommender-change" type="b2602c69:ProjectViewProjectNode" />
+              <item name="movie_recommender-change" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.train">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="movie_recommender-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dbn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="movie_recommender-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dbn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dbn_lstm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="movie_recommender-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dbn_lstm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="predicted" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="movie_recommender-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/predicted.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="movie_recommender-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="movie_recommender-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.dbn" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.dbn_lstm" />
+        <item itemvalue="Python.predicted" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3460cf2e-86f7-4171-bd47-ff067ce95c53" name="Default Changelist" comment="" />
+      <created>1562473092117</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562473092117</updated>
+      <workItem from="1562473098355" duration="14544000" />
+      <workItem from="1562657048978" duration="622000" />
+      <workItem from="1562665743504" duration="7349000" />
+      <workItem from="1563608582072" duration="750000" />
+      <workItem from="1563857614652" duration="626000" />
+      <workItem from="1563864955935" duration="1786000" />
+      <workItem from="1564367840195" duration="1538000" />
+      <workItem from="1564623478518" duration="2460000" />
+      <workItem from="1564795644937" duration="1009000" />
+      <workItem from="1564976282237" duration="12812000" />
+      <workItem from="1565055141010" duration="21740000" />
+      <workItem from="1565490835388" duration="537000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="65773000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="727" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15105008" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329653" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.25826773" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32967034" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32967034" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.329653" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.39274448" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.38529888" />
+      <window_info anchor="right" x="0" y="0" width="270" height="529" id="Documentation" order="4" side_tool="true" weight="0.3206785" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dbn.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dbn.py</url>
+          <line>212</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/train.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/movie_recommender_master$predicted.coverage" NAME="predicted Coverage Results" MODIFIED="1562490304766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/movie_recommender_master$dbn.coverage" NAME="dbn Coverage Results" MODIFIED="1562667672337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/movie_recommender_change$train.coverage" NAME="train Coverage Results" MODIFIED="1565491139574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/movie_recommender_change$dbn.coverage" NAME="dbn Coverage Results" MODIFIED="1565078115471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/movie_recommender_master$dbn_lstm.coverage" NAME="dbn_lstm Coverage Results" MODIFIED="1562677691990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/movie_recommender_master$pre_processing.coverage" NAME="pre-processing Coverage Results" MODIFIED="1562482565161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>movie_input</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>user_input.shape</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>len(predict)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>len(p)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>tar_tar</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>predict</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>step</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>train_loss</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>summaries</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/tensorflow/python/ops/nn.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/tensorflow/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/tensorflow/python/ops/init_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="433" selection-start-line="433" selection-end-line="433" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/urllib/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="229" column="59" lean-forward="true" selection-start-line="229" selection-start-column="59" selection-end-line="229" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/tqdm/_tqdm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="118" column="6" selection-start-line="118" selection-start-column="6" selection-end-line="118" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/re.pyi">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/tensorflow/python/ops/gen_nn_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22260">
+          <caret line="1495" column="4" selection-start-line="1495" selection-start-column="4" selection-end-line="1495" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/pickle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23445">
+          <caret line="1574" column="17" selection-start-line="1574" selection-start-column="17" selection-end-line="1574" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rewrite.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/tensorflow/examples/tutorials/mnist/input_data.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/tensorflow/python/layers/layers.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/tensorflow/python/ops/variable_scope.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15165">
+          <caret line="1031" column="4" selection-start-line="1031" selection-start-column="4" selection-end-line="1031" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/collections/__init__.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/tensorflow/python/ops/rnn_cell_impl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1830">
+          <caret line="129" column="6" selection-start-line="129" selection-start-column="6" selection-end-line="129" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/tensorflow/python/ops/random_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2505">
+          <caret line="181" column="4" selection-start-line="181" selection-start-column="4" selection-end-line="181" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2019.1/python_stubs/-643028152/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16320">
+          <caret line="1088" column="8" selection-start-line="1088" selection-start-column="8" selection-end-line="1088" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbn_lstm.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/tensorflow/python/ops/gen_array_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36420">
+          <caret line="2439" column="4" selection-start-line="2439" selection-start-column="4" selection-end-line="2439" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/tensorflow/python/layers/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3690">
+          <caret line="263" column="4" selection-start-line="263" selection-start-column="4" selection-end-line="263" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/tensorflow/python/ops/embedding_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/tensorflow/python/framework/ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="3726" selection-start-line="3726" selection-end-line="3726" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/tensorflow/python/client/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="1051" selection-start-line="1051" selection-end-line="1051" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/sklearn/model_selection/_split.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="1598" column="4" selection-start-line="1598" selection-start-column="4" selection-end-line="1598" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/tensorflow/python/ops/array_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="963" column="4" selection-start-line="963" selection-start-column="4" selection-end-line="963" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="320" selection-start-line="320" selection-end-line="320" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/user_movie.p">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding>
+            <element signature="e#24#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/tensorflow/python/framework/common_shapes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="675" selection-start-line="675" selection-end-line="675" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/tensorflow/python/ops/math_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="1983" column="4" selection-start-line="1983" selection-start-column="4" selection-end-line="1983" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/tensorflow/python/summary/writer/writer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="90" column="6" selection-start-line="90" selection-start-column="6" selection-end-line="90" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/model/checkpoint" />
+    <entry file="file://$PROJECT_DIR$/doc/network.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/graph.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/MovieLens.md" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/tensorflow/python/training/learning_rate_decay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predicted.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pre-processing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2490">
+          <caret line="176" column="49" selection-start-line="176" selection-start-column="49" selection-end-line="176" selection-end-column="49" />
+          <folding>
+            <element signature="e#25#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="191" column="52" selection-start-line="191" selection-start-column="52" selection-end-line="191" selection-end-column="52" />
+          <folding>
+            <element signature="e#44#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inference.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="163" column="41" selection-start-line="163" selection-start-column="41" selection-end-line="163" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-124">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="95" column="46" lean-forward="true" selection-start-line="95" selection-start-column="46" selection-end-line="95" selection-end-column="46" />
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
