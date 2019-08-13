@@ -12,7 +12,7 @@ from inference import full_network, trainable_variable_summaries
 LOG_FORMAT = "%(asctime)s - %(levelname)s - %(message)s"
 logging.basicConfig(level=logging.INFO, format=LOG_FORMAT)
 
-BATCH_SIZE = 256
+BATCH_SIZE = 64
 EPOCH = 5
 DROPOUT_KEEP_PROB = 0.5
 LEARNING_RATE_BASE = 0.01
@@ -21,7 +21,7 @@ SHOW_LOG_STEPS = 100
 SAVE_MODEL_STEPS = 1000
 
 
-def train(train_X, train_y, save_dir):
+def train(train_X, train_y, save_dir, train=True):
     user_id = tf.placeholder(tf.int32, [None, 1], name='user_id')
     user_gender = tf.placeholder(tf.int32, [None, 1], name='user_gender')
     user_age = tf.placeholder(tf.int32, [None, 1], name='user_age')
@@ -35,14 +35,14 @@ def train(train_X, train_y, save_dir):
     dropout_keep_prob = tf.placeholder(tf.float32, name='dropout_keep_prob')
 
     user_input, movie_input, predicted = full_network(user_id, user_gender, user_age, user_job, movie_id,
-                                   movie_genres, movie_titles, movie_title_length,
-                                   dropout_keep_prob)
+                                                      movie_genres, movie_titles, movie_title_length,
+                                                      dropout_keep_prob, train)
 
     trainable_variable_summaries()
     with tf.name_scope('loss'):
         # MSE损失，将计算值回归到评分
         loss = tf.losses.mean_squared_error(targets, predicted)
-        loss_mae = tf.losses.absolute_difference(targets,predicted)
+        loss_mae = tf.losses.absolute_difference(targets, predicted)
         tf.summary.scalar('loss', loss)
 
     dataset = Dataset(train_X.values, train_y.values)
@@ -67,10 +67,10 @@ def train(train_X, train_y, save_dir):
 
         sess.run(tf.global_variables_initializer())
         for epoch_i in range(EPOCH):
-        # for epoch_i in range(1):
+            # for epoch_i in range(1):
             # 训练的迭代，保存训练损失
             for batch_i in range(batch_per_epcho):
-            # for batch_i in range(1):
+                # for batch_i in range(1):
                 Xs, ys = dataset.next_batch(BATCH_SIZE)
                 users, movies = decompression_feature(Xs)
 
@@ -86,32 +86,35 @@ def train(train_X, train_y, save_dir):
                     targets: ys,
                     dropout_keep_prob: DROPOUT_KEEP_PROB}
 
-                step, train_loss, summaries, _ ,user_user,movie_movie,tar_tar,predict = sess.run([global_step, loss, summaries_merged, train_op,user_input,movie_input,targets,predicted], feed)
+                step, train_loss, summaries, _, user_user, movie_movie, tar_tar, predict = sess.run(
+                    [global_step, loss, summaries_merged, train_op, user_input, movie_input, targets, predicted], feed)
                 train_summary_writer.add_summary(summaries, step)
 
+                print('epoch={} step={} train_loss={}'.format(epoch_i, step, train_loss))
+                result = np.hstack([predict, ys])
+                print('result=', result)
                 if step % SHOW_LOG_STEPS == 0:
                     show_message = 'Epoch {:>3} Batch {:>4}/{}   train_loss = {:.3f}'.format(epoch_i, batch_i,
                                                                                              batch_per_epcho,
-                                                                                            train_loss)
+                                                                                             train_loss)
                     logging.info(show_message)
                 if step % SAVE_MODEL_STEPS == 0:
                     saver.save(sess, save_dir, global_step=global_step)
         saver.save(sess, save_dir, global_step=global_step)
 
-        return user_user, movie_movie,tar_tar
+        return user_user, movie_movie, tar_tar
 
 
 if __name__ == '__main__':
     with open('./data/data.p', 'rb') as data:
         train_X, train_y, _, _ = pickle.load(data, encoding='utf-8')
-    user_in,movie_in,tar_tar=train(train_X, train_y, './data/model/model')
+    user_in, movie_in, tar_tar = train(train_X, train_y, './data/model/model')
 
     with tf.name_scope('user_movie_fc'):
         input_X = tf.concat([user_in, movie_in], 1)
     with tf.Session() as session:
         input_array = input_X.eval()
     input_ndarray = np.array(input_array)
-
 
     with open('./data/user_movie.p', 'wb') as data:
         pickle.dump((input_ndarray), data)

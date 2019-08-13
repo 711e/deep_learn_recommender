@@ -206,8 +206,8 @@ if __name__ == '__main__':
 
     with open('./data/user_movie.p', 'rb') as data:
         intput_X= pickle.load(data, encoding='utf-8')
-    with open('./data/target.p', 'rb') as data:
-        target = pickle.load(data, encoding='utf-8')
+    # with open('./data/target.p', 'rb') as data:
+    #     target = pickle.load(data, encoding='utf-8')
     input_ndarray = intput_X
 
     RBM_hidden_sizes = [400,200,50]  # create 4 layers of RBM with size 785-500-200-50
